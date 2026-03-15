@@ -34,3 +34,13 @@ Runs inference on all test images and saves binary masks (foreground = white, ba
 python stage6_evaluate.py --pred_dir=groupN_output
 ```
 Computes binary Dice score and GFLOPs per image. Prints the values to submit to the leaderboard form.
+
+---
+
+## Results
+
+| Metric       | Value  |
+|--------------|--------|
+| Dice Score   | 0.6555 |
+| GFLOPs       | 0.1267 |
+| Dice / GFLOPs | 5.1736 |
