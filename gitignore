@@ -1,0 +1,26 @@
+# Dataset — too large for git
+data/
+
+# Model checkpoints
+checkpoints/
+
+# Inference output
+groupN_output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Plots and generated images
+*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
